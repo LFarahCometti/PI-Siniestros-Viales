@@ -84,7 +84,6 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `N_VICTIMAS`
 
-![Distribución de víctimas fatales por siniestro](images\output.png)
 <p align="center">
     <img src= "images\output.png"
 </p>
@@ -97,7 +96,9 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `VICTIMA`
 
-![Conteo de los tipos de VICTIMAS](images\conteo_tipo_victima.png)
+<p align="center">
+    <img src= "images\conteo_tipo_victima.png"
+</p>
 
 **Conclusiones [VICTIMA]**
 * Existen 8 tipos diferentes de victimas involucradas.
@@ -108,7 +109,9 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `ACUSADO`
 
-![Conteo de Valores en la Columna ACUSADO](images\conteo_acusado.png)
+<p align="center">
+    <img src= "images\conteo_acusado.png"
+</p>
 
 **Conclusiones [ACUSADO]**
 * Existen 10 registros únicos dentro de la columna 'ACUSADO'. Esto significa que existen 10 tipos diferentes de vehiculos acusados en los siniestros viales.
@@ -118,7 +121,10 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `AAAA`
 
-![Conteo de siniestros por año](images\siniestro_anio.png)
+<p align="center">
+    <img src= "images\siniestro_anio.png"
+</p>
+
 
 **Conclusiones [AAAA]**
 * Hay 6 registros únicos dentro de la columna 'AAAA'. Esto hace referencia a los años 2016 a 2021.
@@ -128,7 +134,9 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `SEMESTRE`
 
-![Conteo de siniestros para cada SEMESTRE](images\conteo_semestre.png)
+<p align="center">
+    <img src= "images\conteo_semestre.png"
+</p>
 
 **Conclusiones [SEMESTRE]**
 * Como podemos observar, el valor mas frecuente corresponde al del segundo semetre de cada año, lo que sugiere que la mayoria de los siniestros se generan en el segundo semetre. 
@@ -136,7 +144,9 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `TIPO_DE_CALLE`
 
-![Conteo de siniestros para cada Tipo de calle](images\conteo_calle.png)
+<p align="center">
+    <img src= "images\conteo_calle.png"
+</p>
 
 **Conclusiones [TIPO_DE_CALLE]**
 * Tenemos 4 registros únicos dentro de la columna 'TIPO_DE_CALLE'. Estos hacen referencias a las diferentes arterias dentro de CABA. Cabe recalcar que 'GRAL PAZ' es tanto una avenida como tambien una autopista en ciertas partes, por ese motivo la dejamos como un registro unico.
@@ -147,7 +157,9 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `COMUNA`
 
-![Conteo de siniestros para cada Comuna](images\conteo_comuna.png)
+<p align="center">
+    <img src= "images\conteo_comuna.png"
+</p>
 
 **Conclusiones [COMUNA]**
 * Contamos con 16 registros únicos para la columna 'COMUNA'. Esto hace referencia a las 15 comunas dentro de CABA, desde la 0 a la 15.
@@ -157,7 +169,9 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 #### `SEXO`
 
-![Distribución de Número de Víctimas por SEXO](images\sexo.png)
+<p align="center">
+    <img src= "images\sexo.png"
+</p>
 
 **Conclusiones [SEXO]**
 * Contamos con 3 registros únicos. Dichos registros hacen referencia a 'MASCULINO', 'FEMENINO' Y 'SD', este ultimo son las personas que no se encontraron datos de su sexo, pero teniendo en cuenta la frecuencia de estas, las dejamos ya que no representan un cambio en el analisis.
@@ -171,7 +185,10 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 **Objetivo:**
 * Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
 
-![kpi_1](images\kpi_1.png)
+<p align="center">
+    <img src= "images\kpi_1.png"
+</p>
+
 
 Este KPI se enfoca en medir la evolución de la tasa de homicidios en siniestros viales en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos semestres. Análisis más detallado:
 
@@ -189,7 +206,10 @@ Este KPI se enfoca en medir la evolución de la tasa de homicidios en siniestros
 **Objetivo:**
 * Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 
-![kpi_2](images\kpi_2.png)
+<p align="center">
+    <img src= "images\kpi_2.png"
+</p>
+
 
 Este KPI se centra en evaluar la evolución de la cantidad de accidentes mortales de motociclistas en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos años. Análisis más detallado:
 
