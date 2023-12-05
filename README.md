@@ -85,6 +85,9 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 #### `N_VICTIMAS`
 
 ![Distribución de víctimas fatales por siniestro](images\output.png)
+<p align="center">
+    <img src= "images\output.png"
+</p>
 
 **Conclusiones [N_VICTIMAS]**
 * Solo hay 3 posibilidades de victimas por accidente: 1, 2, 3
