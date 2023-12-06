@@ -181,47 +181,73 @@ Una vez limpio el conjunto de datos, se procede a hacer un análisis del conjunt
 
 ## KPI's
 
+Dentro del Notebook `KPIs.ipynb` se encontrara todo lo relacionado a los 2 KPI propuestos por el Observatorio de Movilidad y Seguridad Vial (OMSV).
+En esta etapa, mientras estaba haciendo los ultimos cambios y los push pertinentes, cometi un error y borre todo el archivo `KPIs.ipynb` al querer hacer un git restore. esto sucedio 1 hora antes de tener que entregar el proyecto, por eso es que dentro de este archivo encontraras la lectura de los df pertinentes a cada KPI. El proceso de la creacion de estos df no esta documentado ya que fue borrado al hacer le git restore y como no contaba con el tiempo para hacerlo de nuevo, decidi cargar los df que ya tenia guardados y presentar los graficos y conclusiones solamente. 
+
+Cabe recalcar que en la creacion de dichos df, me base en el dataset `PBP_CO_1020.xls` el cual lo consegui de la siguiente fuente:
+https://www.estadisticaciudad.gob.ar/eyc/?p=28146
+
+Habiendo aclarado mi error, estare haciendo un commit en las horas proximas para documentar como fue el proceso de creado de los dataframes `df_kpi_1` y `df_kpi_2`.
+
 #### KPI_1
 **Objetivo:**
 * Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
 
 <p align="center">
-    <img src= "images\kpi_1.png"
+    <img src= "images\kpi1.png"
 </p>
 
+**Conclusiones:**
 
-Este KPI se enfoca en medir la evolución de la tasa de homicidios en siniestros viales en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos semestres. Análisis más detallado:
+1. Dado que no tenemos datos previos al año 2016-1 nuestra primer medida relaciona el semestre 2016-1 y 2016-2 por eso solo se evidencian valores a partir del semestre 2016-2.
 
-* **Tendencia general:** La tendencia en este KPI varía año tras año. En algunos años, se logra una disminución significativa, mientras que en otros se observa un aumento en la tasa de homicidios en siniestros viales.
+2. Si el valor del semestre en la gráfica es positivo significa que para ese semestre hubo menos homicidios que el semestre pasado.
 
-* **Año 2020:** Se destaca un aumento significativo en la tasa de homicidios en el primer semestre (61.29%), pero una mejora en el segundo semestre (10%), lo que puede ser atribuible a factores específicos, como el impacto de la pandemia o medidas de seguridad vial.
+3. Si la gráfica tiene pendiente positiva (creciente) significa que la diferencia de accidentes de motos vs. el semestre anterior aumentó de manera positiva.
 
-* **Año 2021:** Los datos parecen estar incompletos, ya que falta información para el segundo semestre. Esto puede dificultar una evaluación precisa del rendimiento en ese año.
+4. El valor que se representa en la gráfica indica el porcentaje en que se redujo la tasa de homicidios en accidentes de tránsito del semestre anterior vs. el actual. Dado que el objetivo es que dicho valor sea superior al 10% se puede concluir que en el periodo de 6 años comprendido entre 2016 y 2021 se cumplió para los semestres:
 
-* **Comparación entre semestres:** En algunos casos, se logra la reducción deseada del 10% entre semestres, mientras que en otros no se alcanza.
+* 2017-1: En comparación con el semestre anterior se redujeron los homicidios y ese numero fue mayor que el logrado el semestre anterior.
 
-* **Análisis de causas:** Sería útil profundizar en las razones detrás de las variaciones en la tasa de homicidios en siniestros viales, como cambios en las políticas de seguridad vial, mejoras en la infraestructura vial, o la influencia de eventos externos como la pandemia.
+* 2019-1: En comparación con el semestre anterior se redujeron los homicidios y ese numero fue mayor que el logrado el semestre anterior.
+
+* 2019-2: En comparación con el semestre anterior se redujeron los homicidios y ese numero fue menor que el logrado el semestre anterior.
+
+* 2021-2: En comparación con el semestre anterior se redujeron los homicidios y ese numero fue mayor que el logrado el semestre anterior.
+
+5. 4 semestres de 11 cumplieron el objetivo lo cual nos indica que no es positivo el balance de acuerdo a lo planteado inicialmente
+
+6. 5 semestres de 11 tienen un porcentaje de cambio negativo, es decir, aumenta la tasa de homicidios vs. el semestre anterior. Aunque es minoría sigue siendo alarmante la cantidad
+
 
 #### KPI_2
 **Objetivo:**
 * Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 
 <p align="center">
-    <img src= "images\kpi_2.png"
+    <img src= "images\kpi2.png"
 </p>
 
+**Conclusiones:**
 
-Este KPI se centra en evaluar la evolución de la cantidad de accidentes mortales de motociclistas en la Ciudad Autónoma de Buenos Aires (CABA) en un período de varios años, comparando los dos últimos años. Análisis más detallado:
+1. Dado que no tenemos datos previos al año 2016 nuestra primer medida relaciona el año 2016 y 2017 por eso solo se evidencian valores a partir del año 2017.
 
-* **Tendencia general:** En este KPI, también se observa una variación año tras año, con fluctuaciones tanto positivas como negativas.
+2. Si el valor del año en la gráfica es positivo significa que para ese año hubo menos homicidios que el año pasado.
 
-* **Año 2020:** Destaca un aumento significativo del 58.62% en la cantidad de accidentes mortales de motociclistas, lo que podría requerir una atención inmediata para comprender las razones detrás de este aumento.
+3. Si la gráfica tiene pendiente positiva (creciente) significa que la diferencia de accidentes de motos vs. el año anterior aumentó de manera positiva.
 
-* **Año 2021:** Al igual que en el KPI 1, faltan datos para el año 2021 en este KPI, lo que dificulta una evaluación precisa.
+4. El valor que se representa en la gráfica indica el porcentaje en que se redujo la cantidad de homicidios en accidentes de motos del año anterior vs. el actual. Dado que el objetivo es que dicho valor sea superior al 7% se puede concluir que en el periodo de 6 años comprendido entre 2016 y 2021 se cumplió para los semestres:
 
-* **Comparación anual:** La reducción del 7% en la cantidad de accidentes mortales de motociclistas es el objetivo, pero no siempre se logra. Por ejemplo, en el año 2019, se observa una disminución significativa del 42%.
+* 2017: En comparación con el año anterior se redujeron los homicidios y dado que no tenemos valores para el año anterior no podemos decir si fue mayor o menor respecto de ese año.
 
-* **Análisis de causas:** Para entender las fluctuaciones en este KPI, sería importante analizar factores como las medidas de seguridad específicas para motociclistas, el aumento en la cantidad de motociclistas en la ciudad y la aplicación de políticas de tráfico.
+* 2019: En comparación con el año anterior se redujeron los homicidios y ese numero fue mayor que el logrado el año anterior.
+
+* 2020: En comparación con el año anterior se redujeron los homicidios y ese numero fue mayor que el logrado el año anterior.
+
+5. 3 años de 5 cumplieron el objetivo lo cual nos indica que es positivo el balance de acuerdo a lo planteado inicialmente
+
+6. 2 años de 5 tienen un porcentaje de cambio negativo, es decir, aumenta la tasa de accidentes en moto vs. el año anterior. Aunque es minoría sigue siendo alarmante la cantidad
+
 
 
 
