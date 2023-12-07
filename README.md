@@ -203,7 +203,7 @@ Habiendo aclarado mi error, estare haciendo un commit en las horas proximas para
 
 2. Si el valor del semestre en la gráfica es positivo significa que para ese semestre hubo menos homicidios que el semestre pasado.
 
-3. Si la gráfica tiene pendiente positiva (creciente) significa que la diferencia de accidentes de motos vs. el semestre anterior aumentó de manera positiva.
+3. Si la gráfica tiene pendiente positiva (creciente) significa que la diferencia de accidentes vs. el semestre anterior aumentó de manera positiva.
 
 4. El valor que se representa en la gráfica indica el porcentaje en que se redujo la tasa de homicidios en accidentes de tránsito del semestre anterior vs. el actual. Dado que el objetivo es que dicho valor sea superior al 10% se puede concluir que en el periodo de 6 años comprendido entre 2016 y 2021 se cumplió para los semestres:
 
@@ -236,7 +236,7 @@ Habiendo aclarado mi error, estare haciendo un commit en las horas proximas para
 
 3. Si la gráfica tiene pendiente positiva (creciente) significa que la diferencia de accidentes de motos vs. el año anterior aumentó de manera positiva.
 
-4. El valor que se representa en la gráfica indica el porcentaje en que se redujo la cantidad de homicidios en accidentes de motos del año anterior vs. el actual. Dado que el objetivo es que dicho valor sea superior al 7% se puede concluir que en el periodo de 6 años comprendido entre 2016 y 2021 se cumplió para los semestres:
+4. El valor que se representa en la gráfica indica el porcentaje en que se redujo la cantidad de homicidios en accidentes de motos del año anterior vs. el actual. Dado que el objetivo es que dicho valor sea superior al 7% se puede concluir que en el periodo de 6 años comprendido entre 2016 y 2021 se cumplió para los años:
 
 * 2017: En comparación con el año anterior se redujeron los homicidios y dado que no tenemos valores para el año anterior no podemos decir si fue mayor o menor respecto de ese año.
 
